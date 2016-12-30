@@ -1,0 +1,14 @@
+{
+    "name": "keystone/mockery-callable-mock",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "mockery/mockery": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Keystone\\Mockery\\": "src/"
+        }
+    }
+}
